@@ -283,4 +283,4 @@ public abstract class BaseTest {
         assertTrue(confirmation.toLowerCase().contains(ORDER_CONFIRMED_MESSAGE.toLowerCase()),
                 "No se mostro el mensaje '" + ORDER_CONFIRMED_MESSAGE + "'. Mensaje obtenido: " + confirmation);
     }
-
+}
